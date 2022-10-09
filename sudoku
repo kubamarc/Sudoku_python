@@ -1,0 +1,6 @@
+#!/bin/bash
+
+dir="$(dirname "$0")"
+script='src/sudoku.py'
+
+python3 "$dir/$script"
